@@ -1,0 +1,63 @@
+{
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyNavigationView",
+        "designer|initialView": true
+    },
+    "id": "ExtBox1-ext-gen3849",
+    "designerId": "0790316c-fe85-4d1d-816a-07ec88c58086",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Bars in Boston",
+                "designer|userClassName": "MyContainer",
+                "layout": "fit"
+            },
+            "designerId": "14f5170e-91b5-4ca6-86b7-10836e8d6082",
+            "cn": [
+                {
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyList",
+                        "store": "Bars"
+                    },
+                    "designerId": "fe39e47e-8aba-4a1b-b248-0047d93e62cb",
+                    "cn": [
+                        {
+                            "type": "template",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "itemTpl",
+                                "implHandler": [
+                                    "<div>{name}</div>"
+                                ],
+                                "designer|displayName": "itemTpl"
+                            },
+                            "designerId": "b6bfbde9-d96e-4f10-8cd7-78a9de84a709"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

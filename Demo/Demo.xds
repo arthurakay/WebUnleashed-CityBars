@@ -1,0 +1,66 @@
+{
+    "name": "Demo",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 640,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "99ad0bce-a05c-4bb8-a346-a1e63f6be871": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "a0b106e8-bcce-460f-8937-cc1fce6666f6": {
+            "paths": [
+                "metadata/store/Bars",
+                "app/store/override/Bars.js",
+                "app/store/Bars.js"
+            ],
+            "className": "Bars"
+        },
+        "f1808fad-f012-45e4-bc5a-c7525d539d75": {
+            "paths": [
+                "metadata/model/Bar",
+                "app/model/override/Bar.js",
+                "app/model/Bar.js"
+            ],
+            "className": "Bar"
+        },
+        "0790316c-fe85-4d1d-816a-07ec88c58086": {
+            "paths": [
+                "metadata/view/MyNavigationView",
+                "app/view/override/MyNavigationView.js",
+                "app/view/MyNavigationView.js"
+            ],
+            "className": "MyNavigationView"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "0790316c-fe85-4d1d-816a-07ec88c58086"
+        ],
+        "store": [
+            "a0b106e8-bcce-460f-8937-cc1fce6666f6"
+        ],
+        "controller": [],
+        "model": [
+            "f1808fad-f012-45e4-bc5a-c7525d539d75"
+        ],
+        "resource": [
+            "99ad0bce-a05c-4bb8-a346-a1e63f6be871"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

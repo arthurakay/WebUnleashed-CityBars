@@ -1,0 +1,6 @@
+$red : #990000 !default;
+
+$base-color : $red; //used by Sencha styles
+
+//external SCSS files
+@import 'sencha';

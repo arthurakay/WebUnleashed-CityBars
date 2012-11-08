@@ -1,0 +1,53 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Bars",
+        "autoLoad": true,
+        "model": "Bar",
+        "storeId": "Bars"
+    },
+    "id": "ExtBox1-ext-gen2185",
+    "designerId": "a0b106e8-bcce-460f-8937-cc1fce6666f6",
+    "cn": [
+        {
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyJsonPProxy",
+                "extraParams": [
+                    "{",
+                    "    ywsid    : 'U57WYaLLGf42NgkGYIkD_Q',",
+                    "    term     : 'bars',",
+                    "    location : 'Boston'",
+                    "}"
+                ],
+                "url": "http://api.yelp.com/business_review_search"
+            },
+            "designerId": "58433479-a34a-4e71-8e91-a2045dc30c79",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader",
+                        "rootProperty": "businesses"
+                    },
+                    "designerId": "70f5fef9-c483-4a2c-951f-7124147f1c73"
+                }
+            ]
+        }
+    ]
+}
